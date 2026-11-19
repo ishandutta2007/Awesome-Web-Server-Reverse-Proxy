@@ -1,26 +1,28 @@
-# Awesome-Web-Server-Reverse-Proxy
+# Awesome-Knowledge-Base-FAQ-Management
 
-## Top Web Server & Reverse Proxy Ecosystem
+# Awesome-Knowledge-Base-FAQ-Management
+
+## Top Knowledge Base & FAQ Management Ecosystem
 
 
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 
-*Focused on High-Performance HTTP/3 Web Servers, Cloud-Native Reverse Proxies, Load Balancers, API Gateways & Automatic TLS Termination*  
+*Focused on Help Centers, FAQ Portals, Self-Service Support Content & Internal Knowledge Bases*  
 
 **Last updated: November 2026**
 
 
 
-This repository (`Awesome-Web-Server-Reverse-Proxy`) tracks notable **SaaS/Hosted platforms** and **open-source projects** for **Web Server & Reverse Proxy** — Top Web Server Reverse Proxy (Opensource) 🌟 Star if you like it! 🌟. These tools serve static and dynamic web traffic, terminate TLS/SSL certificates automatically via ACME, route L4/L7 traffic, load balance microservices, terminate HTTP/3 (QUIC), and protect origin servers behind Web Application Firewalls (WAF).
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Knowledge Base & FAQ Management**. These systems organize articles and FAQs so customers and employees can find answers without opening a ticket.
 
 
 
-**Examples** include Caddy, Cloudflare, Fastly, Akamai, NGINX Plus, Envoy Gateway, Traefik Enterprise, HAProxy Enterprise, F5 BIG-IP, Kong Konnect, and `caddyserver/caddy` (the category leaders).
+**Examples** include Freshworks Knowledge Base, Notion, Confluence, Document360, Guru, GitBook, Slab, Bloomfire, Helpjuice, and Slite.
 
 
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for modern automatic-HTTPS web servers, cloud-native Ingress/Gateway proxies, Rust memory-safe reverse proxies, Docker-integrated proxy managers, and high-throughput L4/L7 load balancers — ideal for DevOps engineers, platform architects, SREs, and self-hosters.
+**Open-source emphasis**: Self-hosted knowledge bases and FAQ portals are well served by open source. **Wiki.js**, **BookStack**, **Outline**, **MediaWiki**, **DokuWiki**, **FreeScout**, and **Helpy** cover internal docs and customer-facing help centers. This section is heavily expanded.
 
 
 
@@ -30,7 +32,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saashosted-platforms)
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
@@ -44,69 +46,27 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
-- **[Cloudflare](https://cloudflare.com)**  
+- **[Document360, Helpjuice, Freshworks Knowledge Base, GitBook](https://document360.com/)**  
 
-  Global anycast edge reverse proxy, CDN, DDoS mitigation, Zero Trust tunnel, and serverless edge computing platform protecting millions of web properties.
-
-
-
-- **[Fastly](https://fastly.com)**  
-
-  High-speed edge cloud platform and programmable reverse proxy featuring instant cache purging, VCL/Compute@Edge routing, and next-gen WAF protection.
+  Dedicated knowledge base and help-center products—structured articles, versioning, analytics, and public self-service portals.
 
 
 
-- **[Akamai](https://akamai.com)**  
+- **[Notion, Confluence, Slite, Slab](https://www.notion.so/)**  
 
-  Enterprise content delivery network, intelligent edge routing, and cloud security reverse proxy platform powering global high-traffic applications.
-
-
-
-- **[NGINX Plus (F5)](https://f5.com)**  
-
-  Commercial enterprise web server, load balancer, and API gateway extending open-source NGINX with active health checks, JWT auth, and dynamic reconfiguration.
+  Flexible team knowledge workspaces often used as internal FAQs and support runbooks.
 
 
 
-- **[F5 BIG-IP](https://f5.com)**  
+- **[Guru, Bloomfire](https://www.getguru.com/)**  
 
-  Enterprise application delivery controller (ADC), L4/L7 load balancer, SSL/TLS offload engine, and advanced web application firewall.
-
-
-
-- **[Traefik Hub & Enterprise](https://traefik.io)**  
-
-  Commercial cloud-native API management, Ingress controller, and distributed reverse proxy platform built on top of open-source Traefik Proxy.
+  Knowledge platforms focused on verified answers, expert workflows, and in-the-flow discovery for support and sales teams.
 
 
 
-- **[HAProxy Enterprise](https://haproxy.com)**  
+- **[Other commercial KB & FAQ platforms](https://www.freshworks.com/)**  
 
-  Enterprise-grade TCP/HTTP load balancer and reverse proxy adding real-time bot management, WAF modules, and multi-datacenter traffic steering.
-
-
-
-- **[Kong Konnect](https://konghq.com)**  
-
-  SaaS-managed unified API gateway, service mesh, and AI reverse proxy control plane built around Kong Gateway and Envoy.
-
-
-
-- **[AWS Application Load Balancer & CloudFront](https://amazon.com)**  
-
-  Managed cloud L7 reverse proxy and global edge delivery service offering path/host routing, ACM certificate management, and WAF integration.
-
-
-
-- **[ngrok](https://ngrok.com)**  
-
-  Unified cloud ingress-as-a-service platform providing instant secure reverse proxy tunnels, global load balancing, and identity-aware access to local or private services.
-
-
-
-- **[Caddy Enterprise / Hosted Edge](https://caddyserver.com)**  
-
-  Commercial support and enterprise fleet management extensions for Caddy's automatic-HTTPS web server and reverse proxy architecture.
+  Additional helpdesk-bundled and standalone knowledge products.
 
 
 
@@ -114,144 +74,162 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
-- **[Caddy (caddyserver/caddy)](https://github.com)**  
+### Knowledge Bases & Wiki-Style FAQs
 
-  Fast, extensible open-source web server and reverse proxy written in Go that pioneered automatic HTTPS (Let's Encrypt / ZeroSSL), HTTP/3 support, and zero-downtime JSON/Caddyfile reloads.
 
 
+- **[Wiki.js](https://github.com/requarks/wiki)**  
 
-- **[NGINX (nginx/nginx)](https://github.com)**  
+  Modern open wiki—Markdown/WYSIWYG, access control, and a clean UI suited to internal and external knowledge bases.
 
-  The world's most widely deployed open-source high-performance HTTP web server, reverse proxy, mail proxy, and L4/L7 load balancer built on an asynchronous event-driven architecture.
 
 
+- **[BookStack](https://github.com/BookStackApp/BookStack)**  
 
-- **[Envoy Proxy (envoyproxy/envoy)](https://github.com)**  
+  Open structured documentation platform—books/chapters/pages model ideal for FAQs and product help centers.
 
-  CNCF graduated open-source L7 edge and service proxy written in C++ designed for cloud-native microservices, gRPC routing, dynamic xDS APIs, and deep observability.
 
 
+- **[Outline](https://github.com/outline/outline)**  
 
-- **[Envoy Gateway (envoyproxy/gateway)](https://github.com)**  
+  Open team knowledge base—fast editor, collections, and self-hosted deployment for internal FAQs and wikis.
 
-  Open-source Kubernetes Gateway API implementation powered by Envoy Proxy, simplifying ingress routing, rate limiting, and TLS termination.
 
 
+- **[MediaWiki](https://github.com/wikimedia/mediawiki)**  
 
-- **[Traefik Proxy (traefik/traefik)](https://github.com)**  
+  Highly extensible open wiki engine—proven at scale for large FAQ and documentation sites.
 
-  Modern open-source cloud-native reverse proxy and load balancer written in Go that automatically discovers services from Docker, Kubernetes, Consul, and Etcd with built-in Let's Encrypt TLS.
 
 
+- **[DokuWiki](https://github.com/dokuwiki/dokuwiki)**  
 
-- **[HAProxy (haproxy/haproxy)](https://github.com)**  
+  Lightweight open file-based wiki—simple FAQ sites without a separate database.
 
-  Industry-standard open-source high-availability TCP/HTTP load balancer and reverse proxy renowned for extreme performance, low latency, and granular ACL traffic routing.
 
 
+- **[XWiki](https://github.com/xwiki/xwiki-platform)**  
 
-- **[Pingora (cloudflare/pingora)](https://github.com)**  
+  Open enterprise wiki—structured content and apps for complex knowledge portals.
 
-  Open-source, memory-safe Rust framework built by Cloudflare for constructing ultra-fast programmable HTTP/1, HTTP/2, and gRPC reverse proxies at internet scale.
 
 
+### Help Center & Support-Oriented
 
-- **[River (memorysafety/river)](https://github.com)**  
 
-  Open-source memory-safe reverse proxy application built on top of Cloudflare's Pingora Rust library by the Internet Security Research Group (Prossimo).
 
+- **[FreeScout](https://github.com/freescout-helpdesk/freescout)**  
 
+  Open self-hosted help desk with knowledge base features—shared inboxes plus self-service content.
 
-- **[Nginx Proxy Manager (NginxProxyManager/nginx-proxy-manager)](https://github.com)**  
 
-  Popular open-source Docker-based reverse proxy management interface wrapping NGINX with a clean web UI for one-click Let's Encrypt SSL certificates and access lists.
 
+- **[Helpy](https://github.com/helpyio/helpy)**  
 
+  Open help desk and knowledge base platform—tickets and public FAQ-style articles.
 
-- **[Zoraxy (tobychui/zoraxy)](https://github.com)**  
 
-  All-in-one open-source general-purpose reverse proxy and network forwarding manager written in Go featuring a modern web dashboard, automatic ACME TLS, GeoIP filtering, and ZeroTier integration.
 
+- **[Chatwoot (help center features)](https://github.com/chatwoot/chatwoot)**  
 
+  Open customer engagement platform with help-center / docs capabilities alongside messaging.
 
-- **[BunkerWeb (bunkerity/bunkerweb)](https://github.com)**  
 
-  Next-generation open-source web server and reverse proxy built on NGINX that integrates a full Web Application Firewall (ModSecurity/CRS), bot protection, and automated TLS out of the box.
 
+- **[Docmost](https://github.com/docmost/docmost)**  
 
+  Open collaborative documentation and wiki platform for team knowledge and FAQs.
 
-- **[SWAG — Secure Web Application Gateway (linuxserver/docker-swag)](https://github.com)**  
 
-  All-in-one open-source container combining an NGINX web server and reverse proxy with built-in Certbot SSL automation, Fail2ban intrusion prevention, and hundreds of pre-built app templates.
 
+- **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)**  
 
+  Open Notion-style workspace usable as a flexible internal knowledge and FAQ store.
 
-- **[Cosmos Cloud (azukaar/Cosmos-Server)](https://github.com)**  
 
-  Open-source self-hosted reverse proxy, container manager, and identity gateway offering built-in SmartShield anti-DDoS, SSO authentication, and automatic HTTPS.
 
+### Docs-as-Code & Lightweight Options
 
 
-- **[Pangolin (fosrl/pangolin)](https://github.com)**  
 
-  Open-source tunneled reverse proxy and identity-aware access platform built on Traefik and WireGuard for securely exposing private homelab and enterprise services without opening firewall ports.
+- **[HedgeDoc](https://github.com/hedgedoc/hedgedoc)**  
 
+  Open collaborative Markdown—quick FAQ drafts and meeting-to-docs workflows.
 
 
-- **[OpenResty (openresty/openresty)](https://github.com)**  
 
-  High-performance open-source web platform extending NGINX with LuaJIT scripting to build dynamic edge proxies, custom WAFs, and high-concurrency API gateways.
+- **[Trilium Notes](https://github.com/TriliumNext/Notes)**  
 
+  Open hierarchical notes for personal or small-team knowledge bases.
 
 
-- **[APISIX (apache/apisix)](https://github.com)**  
 
-  Apache Foundation cloud-native, dynamic, real-time open-source API gateway and reverse proxy built on NGINX and etcd with hot-reloading plugins.
+- **[mdBook / Docusaurus / VitePress](https://github.com/rust-lang/mdBook)**  
 
+  Open static documentation generators—excellent for versioned product FAQs and developer knowledge sites.
 
 
-- **[Kong Gateway OSS (Kong/kong)](https://github.com)**  
 
-  Cloud-native, platform-agnostic open-source API gateway and reverse proxy built on OpenResty/NGINX for managing, securing, and extending microservices.
+### Additional Strong Open-Source Options
 
 
 
-- **[FrankenPHP (php/frankenphp)](https://github.com)**  
+- **Customer-facing help center**: BookStack or Wiki.js (public site) + optional FreeScout/Helpy for tickets.
 
-  Modern open-source PHP application server built directly on top of the Caddy web server, featuring worker mode, Early Hints, and automatic HTTPS.
+- **Internal FAQs**: Outline, Wiki.js, or AppFlowy.
 
+- **Large / highly customized**: MediaWiki or XWiki.
 
+- **Static product docs**: Docusaurus, VitePress, or mdBook.
 
-- **[RoadRunner (roadrunner-server/roadrunner)](https://github.com)**  
+- **Composable stacks**: Open KB → SSO → search (e.g. Meilisearch/Typesense) → support widget.
 
-  High-performance open-source Go application server, load balancer, and process manager accelerating PHP and gRPC workloads with HTTP/3 support.
+- Commercial platforms still lead for AI article suggestions, deep helpdesk analytics, and turnkey multi-brand portals.
 
 
 
-- **[Varnish Cache (varnishcache/varnish-cache)](https://github.com)**  
+**Frameworks for building custom systems**:  
 
-  High-speed open-source HTTP reverse proxy accelerator and caching engine programmable via Varnish Configuration Language (VCL).
+**BookStack** or **Wiki.js** for structured FAQs; **Outline** for modern internal knowledge; **FreeScout**/**Helpy** when tickets and KB share one stack; static generators for docs-as-code FAQs.  
 
+Fully open knowledge base and FAQ systems are production-ready for startups through mid-size support orgs.
 
 
-- **[Apache HTTP Server (apache/httpd)](https://github.com)**  
 
-  Foundational open-source HTTP web server and modular reverse proxy (`mod_proxy`) powering web infrastructure for over three decades.
+## How to Contribute
 
 
 
-- **[Apache Traffic Server (apache/trafficserver)](https://github.com)**  
+1. Fork the repo.
 
-  Scalable, modular open-source HTTP/1.1, HTTP/2, and HTTP/3 caching forward and reverse proxy capable of handling tens of thousands of concurrent connections.
+2. Add/edit entries in `README.md` (follow existing format).
 
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
 
+4. Submit PR with a short explanation.
 
-- **[YARP — Yet Another Reverse Proxy (dotnet/yarp)](https://github.com)**  
 
-  Microsoft-backed open-source reverse proxy toolkit for .NET designed for building customizable, high-throughput L7 proxies and load balancers.
 
+Star the repo if you find it useful!
 
 
-- **[Sozu (sozu-proxy/sozu)](https://github.com)**  
 
-  Open-source HTTP reverse proxy written in Rust supporting hot reconfiguration without dropping existing connections and memory-safe TLS termination.
+## Disclaimer
+
+
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+
+- Knowledge bases influence customer trust—keep articles accurate, versioned, and access-controlled. Public FAQs should avoid leaking internal-only data.
+
+- Open-source tools offer ownership and self-hosting. Commercial platforms shift hosting, analytics, and support to the vendor. Neither replaces content ownership and regular review cycles.
+
+
+
+---
+
+
+
+**Made for support leaders, knowledge managers, and teams building self-service experiences.**  
+
+Let's expand open knowledge bases and FAQ systems while recognizing the workflow polish that leading commercial KB platforms deliver.
